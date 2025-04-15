@@ -1,1 +1,281 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Jakub Dvořák">
+	<meta name="keywords"
+		content="cv, cirkum vitae, životopis, portfolio, frontend, backend, fullstack, programmer, html, css">
+	<meta name="description" content="cv/portfolio/životopis fullstack developera Jakuba Dvořáka">
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<title>Jakub Dvořák Životopis</title>
+	<link rel="icon" type="image/x-icon" href="images/Favicon.png">
+</head>
+
+<body>
+	<!-- Sticky Navbar -->
+	<nav class="navbar">
+		<ul>
+			<li><a class="logoLoop" href="#top" title="Zpět nahoru"><img src="images/BlinkLoopResize.gif" width="45"></a>
+			</li>
+			<li><a href="#aboutMe">O mně</a></li>
+			<li><a href="#education">Vzdělání</a></li>
+			<li><a href="#projects">Projekty</a></li>
+			<li><a href="#contact">Kontaktujte mě</a></li>
+			<li class="languages"><a>Jazyk</a>
+				<div class="content">
+					<a href="index.html"><img src="images/Czech.png" alt="Czech" height="40" width="40" id="language"></a>
+					<a href="indexEn.html"><img src="images/English.png" alt="English" height="40" width="40" id="language">
+					</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- První box: titulek, git, linkedIn -->
+	<header>
+		<div class="box1">
+			<div class="introduction hiddenLeft">
+				<div class=" title-container">
+					<h1 id="title">Jakub Dvořák</h1>
+					<div class="linkGitLin">
+						<a href="https://github.com/JakubDvorak1" title="GitHub" target="_blank"><i
+								class='bx bxl-github'></i></a>
+						<a href="https://www.linkedin.com/in/jakub-dvořák-49ba7b279/" title="LinkedIn" target="_blank"><i
+								class='bx bxl-linkedin'></i></a>
+					</div>
+					<div class="textTitle">
+						<p>Nadšený <em>full-stack vývojář</em> se zápalem pro <em>řešení problémů</em> a láskou ke
+							<em>kreativnímu tvoření</em>.
+							<br>
+							"Rád se učím novým věcem, rozšiřuji svůj repertoár dovedností a zdokonaluji se ve svém řemeslu."
+						</p>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="menuA">
+						<a href="#aboutMe">O mně</a>
+						<a href="#education">Vzdělání</a>
+					</div>
+					<div class="menuB">
+						<a href="#projects" id="menuProjects">Projekty</a>
+						<a href="#contact" id="menuContact">Kontaktujte mě</a>
+					</div>
+				</div>
+			</div>
+			<div class="profileGif">
+				<img src="images/GifProfile.gif" id="mainGif" width="600">
+				<img src="images/BlinkLoopResize.gif" id="loopMainGif" width="600" style="display:none;">
+			</div>
+		</div>
+	</header>
+
+	<!-- Nějaká scroll animace? -->
+	<div class="scrollAnimationWrapper">
+		<div class="scrollAnimation1">
+			<div class="transitionLine">
+				<img class="invisibleBox" src="images/invisible_box.png" alt="Animated line" width="800">
+			</div>
+		</div>
+	</div>
+	<!-- Druhý box: O mně, fotka, elevator pitch -->
+	<main>
+		<section>
+			<div class="box2" id="aboutMe">
+				<div class="profilePictureBox">
+					<div class="card"><img src="images/ProfilePicture.png" class="profilePicture"
+							alt="Profile picture of Jakub Dvořák" width="800""></div>
+					</div>
+				<div class=" aboutMe hiddenRight">
+						<div class="titleAboutMe">
+							<h2>O mně</h2>
+						</div>
+						<div class="textAboutMe">
+							<p>
+								Jsem software developer na začátku své kariéry s největšími v oblasti full-stack
+								vývoje webových aplikací. Neustále rozšiřuji své znalosti a dovednosti v dalších oblastech
+								vývoje. Rád hledám a řeším problémy, ať už jde o SW nebo HW; jsem přizpůsobivý a rychle se učím
+								novým věcem. Mým
+								primárním cílem je zlepšovat se ve vývoji, nabývat cenných zkušenosti, poznat celý proces vývoje
+								a
+								stát se univerzálním a efektivním programátorem. Software development je řemeslo, kterému se
+								chci věnovat a
+								ve kterém se chci zdokonalovat.
+								<br>
+								<br>
+								Mám rád všechny formy kreativní tvorby, rád pracuji se dřevem a měkkými kovy. Zbožňuji hudbu,
+								někteří by mě mohli označit za audiofila. Zajímám se o sporty, především o fotbal (americký i
+								"ten pořádný") a eSport všech druhů. Nejsem nijak soutěživý, kromě dobrovolných hasičů, cvičím
+								pouze
+								rekreačně. Od mládí se zajímám o divadlo a herectví, v současnosti působím v ochotnickém divadle
+								DS Tyl v
+								Mnichově Hradišti.
+							</p>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section id="education">
+			<div class="box3 hiddenDown">
+
+				<div class="titleEducation">
+					<h2>Vzdělání</h2>
+				</div>
+				<div class="mainList">
+					<div class="listLeft">
+						<ul>
+							<li>Střední škola <em>s maturitou</em>, Gymnázium v Mnichově Hradišti</li>
+							<li>1.5 roku VŠ (ukončeno bez titulu), <em>Technická univerzita v Liberci, fakulta mechatroniky,
+									informatiky a meziobor. studií</em></li>
+							<li>1 rok VŠ (ukončeno bez titulu), <em>Vysoké učení technické v Brně, fakulta informačních
+									technoligií</em></li>
+						</ul>
+					</div>
+					<div class="listRight">
+						<ul>
+							<li>Rekvalifikační kurz <em>Full-stack programátor webových aplikací</em>, absolvovaný <a
+									href="https://www.primakurzyonline.cz/kurz-programator#course-info" title="Osnova kurzů"
+									target="_blank"><i class='bx bx-link-external'></i></a><a
+									href="images/Certifikat_ke_kurzu.pdf" title="Certifikát" target="_blank"><i
+										class='bx bx-link-external'></i></a></li>
+							<li>Rekvalifikační kurz <em>Manžer pro internetové projekty</em>, aktuálně v průběhu studia <a
+									href="https://www.primakurzyonline.cz/digitalni-marketing-kurz#course-info"
+									title="Osnova kurzu" target="_blank"><i class='bx bx-link-external'></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Slider -->
+
+		<section id="projects">
+			<div class="box4">
+				<div class="titleProject">
+					<h2>Projekty</h2>
+				</div>
+				<div class="projectSlider" id="slider" data-mouse-down-at="0" data-prev-percentage="0">
+					<img class="image" draggable="false" src="images/kominikZemanekImage.png">
+					<img class="image" draggable="false" src="images/generalCodePicture.png">
+					<img class="image" draggable="false" src="images/generalCodePicture.png">
+					<img class="image" draggable="false" src="images/generalCodePicture.png">
+					<!-- <img class="image" draggable="false" src="images/generalCodePicture.png">
+					<img class="image" draggable="false" src="images/generalCodePicture.png">
+					<img class="image" draggable="false" src="images/generalCodePicture.png"> -->
+				</div>
+				<div class="projectTrivia" id="trivia">
+					<ul class="list">
+						<li>Firemní stránky pro zákazníka + UI admin editor</li>
+						<li>HTML, CSS, JS, PHP, GoogleAnalyticks </li>
+						<li>
+							<a href="https://www.kominikzemanek.cz" title="https://www.kominikzemanek.cz" target="_blank"><i
+									class='bx bx-link-external'></i></a>
+
+						</li>
+					</ul>
+					<ul class="list">
+						<li>Mobilní aplikace -> duely v deskovích hrách s žebříčkem hodnocení hráčů. </li>
+						<li><em>Ve vývoji</em>
+						</li>
+					</ul>
+					<ul class="list">
+						<li>Youtube API, nastavení/omezení domovské stránky a doporučených videí</li>
+						<li><em>Ve vývoji</em>
+					</ul>
+					<ul class="list">
+						<li>Databáze -> fotbalové statistiky</li>
+						<li><em>Ve vývoji</em>
+					</ul>
+					<!-- <ul class="list">
+						<li>Krátký souhrn projektu</li>
+						<li>Využité jazyky/znalosti </li>
+						<li>links
+							<a href="Project01.html" title="Projekt" target="_blank"><i class='bx bx-link-external'></i></a>
+							<a href="https://github.com/JakubDvorak1" title="Projekt GitHub" target="_blank"><i
+									class='bx bxl-github'></i></a>
+						</li>
+					</ul>
+					<ul class="list">
+						<li>Krátký souhrn projektu</li>
+						<li>Využité jazyky/znalosti </li>
+						<li>links
+							<a href="Project01.html" title="Projekt" target="_blank"><i class='bx bx-link-external'></i></a>
+							<a href="https://github.com/JakubDvorak1" title="Projekt GitHub" target="_blank"><i
+									class='bx bxl-github'></i></a>
+						</li>
+					</ul>
+					<ul class="list">
+						<li>Krátký souhrn projektu</li>
+						<li>Využité jazyky/znalosti </li>
+						<li>links
+							<a href="Project01.html" title="Projekt" target="_blank"><i class='bx bx-link-external'></i></a>
+							<a href="https://github.com/JakubDvorak1" title="Projekt GitHub" target="_blank"><i
+									class='bx bxl-github'></i></a>
+						</li>
+					</ul> -->
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Contact form -->
+
+
+		<section class="box5" id="contact">
+			<div class="titleContact">
+				<h2>Kontaktujte mě</h2>
+			</div>
+			<div class="listContact">
+				<ul>
+					<li><a href="tel:737459479">TEL.: +420 602 949 981</a></li>
+					<li><a href="mailto:software.jakubdvorak@gmail.com" target="_blank">E-MAIL:
+							software.jakubdvorak@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+			<!-- <form class="forms" action="./send_mail.php" method="POST">
+				<div class="inputNameEmail">
+					<div class="inputName">
+						<input type="text" name="jmeno" id="name" placeholder="Vaše jméno*" required>
+					</div>
+					<div class="inputEmail">
+						<input type="email" name="email" id="email" placeholder="Váš e-mail*" required>
+					</div>
+				</div>
+				<div class="areaMessage">
+					<textarea name="message" id="message" placeholder="Vaše zpráva*" maxlength="500" required></textarea>
+				</div>
+				<div class="submit">
+					<input type="submit" id="submit" value="Poslat zprávu">
+				</div>
+				<div id="formMessage" style="color: green; margin-top: 10px;"></div>
+			</form> -->
+		</section>
+
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="kontakt">
+				<h3>Kontakt</h3>
+				<address>
+					<a href="mailto:software.jakubdvorak@gmail.com" target="_blank">Jakub Dvořák <br>
+						software.jakubdvorak@gmail.com<br>
+						+420 602949981
+					</a>
+				</address>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
